@@ -412,6 +412,7 @@ img {
 .final-cta {
   color: #fff;
   border-radius: 40px;
+  padding-inline: clamp(24px, 5vw, 72px);
   background:
     radial-gradient(circle at top right, rgba(255, 233, 159, 0.16), transparent 22%),
     linear-gradient(135deg, rgba(67, 16, 95, 0.98), rgba(113, 31, 137, 0.95));
@@ -583,6 +584,11 @@ img {
   .final-cta {
     padding-top: 64px;
     padding-bottom: 64px;
+  }
+
+  .section-deep,
+  .final-cta {
+    padding-inline: 24px;
   }
 
   .section-accent,
