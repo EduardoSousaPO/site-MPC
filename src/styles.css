@@ -18,6 +18,7 @@
   --font-accent: 'Anton', sans-serif;
   --font-body: 'Poppins', sans-serif;
   --shadow-soft: 0 20px 60px rgba(74, 7, 128, 0.12);
+  --wa-green: #25d366;
 }
 
 * {
@@ -217,6 +218,70 @@ img {
 
 .button-ghost-light:hover {
   background: rgba(255, 255, 255, 0.1);
+}
+
+/* ——— WhatsApp: ícone oficial (SVG) + leve movimento ——— */
+.wa-icon {
+  display: block;
+  width: 1.2em;
+  height: 1.2em;
+  flex-shrink: 0;
+}
+
+.wa-icon--animate {
+  animation: wa-icon-motion 2.2s ease-in-out infinite;
+  transform-origin: 50% 55%;
+}
+
+@keyframes wa-icon-motion {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+  18% {
+    transform: scale(1.06) rotate(-6deg);
+  }
+  36% {
+    transform: scale(1.03) rotate(5deg);
+  }
+  54% {
+    transform: scale(1.08) rotate(-3deg);
+  }
+  72% {
+    transform: scale(1.02) rotate(2deg);
+  }
+}
+
+.button--wa,
+.button--wa-outline {
+  gap: 0.5rem;
+}
+
+.button--wa .wa-icon {
+  color: var(--wa-green);
+}
+
+.button--wa-outline .wa-icon {
+  color: var(--wa-green);
+}
+
+.footer-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.footer-wa .wa-icon {
+  width: 1.15em;
+  height: 1.15em;
+  color: var(--wa-green);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wa-icon--animate,
+  .floating-whatsapp {
+    animation: none !important;
+  }
 }
 
 /* ——— Hero (slide 1) ——— */
@@ -1350,18 +1415,46 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
   border-radius: var(--radius-pill);
-  background: #128c7e;
+  background: var(--wa-green);
   color: var(--white);
   font-weight: 700;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 36px rgba(37, 211, 102, 0.45);
+  animation: wa-fab-ring 2.4s ease-out infinite;
+}
+
+.floating-whatsapp .wa-icon {
+  width: 1.35em;
+  height: 1.35em;
+  color: var(--white);
 }
 
 .floating-whatsapp:hover {
   transform: translateY(-2px);
+  animation: none;
+  box-shadow: 0 14px 44px rgba(37, 211, 102, 0.55);
+}
+
+@keyframes wa-fab-ring {
+  0% {
+    box-shadow:
+      0 10px 36px rgba(37, 211, 102, 0.45),
+      0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  60% {
+    box-shadow:
+      0 10px 36px rgba(37, 211, 102, 0.35),
+      0 0 0 14px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow:
+      0 10px 36px rgba(37, 211, 102, 0.35),
+      0 0 0 0 rgba(37, 211, 102, 0);
+  }
 }
 
 /* ——— Reveal ——— */
