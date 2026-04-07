@@ -92,6 +92,7 @@ document.querySelector('#app').innerHTML = `
       </a>
       <nav class="topnav" aria-label="Seções principais">
         <a href="#inicio">Início</a>
+        <a href="#mentora">Mentora</a>
         <a href="#dor">Dor</a>
         <a href="#metodo">Método</a>
         <a href="#perguntas">Perguntas</a>
@@ -137,6 +138,31 @@ document.querySelector('#app').innerHTML = `
                 </div>
               </div>
             </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--mentora-deck" id="mentora" aria-labelledby="mentora-heading">
+        <div class="mentora-deck reveal">
+          <h2 class="mentora-deck__title" id="mentora-heading">Quem vai ser sua Mentora?</h2>
+          <div class="mentora-deck__body">
+            <p>
+              Iraide Sousa é Professora, Psicoterapeuta e Consteladora Familiar, tem várias formações na área do
+              desenvolvimento humano e atua nesse mercado desde 2019. Sua maior formação é sua experiência de Vida e seu
+              melhor professor foi Deus.
+            </p>
+            <p>
+              Foi no campo de batalha, no dia a dia colocando em prática tudo o que aprendi, que saí de uma morte em
+              vida, me curei de uma profunda depressão e já ajudei centenas de pessoas ao redor do mundo.
+            </p>
+          </div>
+          <div class="mentora-deck__formula">
+            <p class="mentora-deck__creator">
+              Sou criadora do <span class="mpc-name-highlight mpc-name-highlight--inline">Método MPC</span>
+            </p>
+            <p class="mentora-deck__equation">
+              Mentalidade + Prática + Constância = uma Vida Transformada
+            </p>
           </div>
         </div>
       </section>
