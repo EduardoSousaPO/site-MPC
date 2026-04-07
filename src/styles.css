@@ -699,6 +699,8 @@ img {
 .how-deck__title .mpc-name-highlight {
   font-size: 1.12em;
   display: inline;
+  color: var(--yellow);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .foundation-deck__side-title .mpc-name-highlight--inline {
