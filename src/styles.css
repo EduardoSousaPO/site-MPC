@@ -439,7 +439,7 @@ img {
 
 .mentora-deck__body p {
   margin: 0;
-  font-size: clamp(1.02rem, 2vw, 1.12rem);
+  font-size: clamp(1.08rem, 2.2vw, 1.2rem);
   line-height: 1.7;
   color: var(--ink);
 }
@@ -455,7 +455,7 @@ img {
 
 .mentora-deck__creator {
   margin: 0 0 12px;
-  font-size: clamp(1.05rem, 2vw, 1.15rem);
+  font-size: clamp(1.1rem, 2.2vw, 1.22rem);
   font-weight: 700;
   color: var(--purple-deep);
   line-height: 1.45;
@@ -469,7 +469,7 @@ img {
   margin: 0;
   font-family: var(--font-display);
   font-weight: 900;
-  font-size: clamp(1.02rem, 2.1vw, 1.2rem);
+  font-size: clamp(1.1rem, 2.3vw, 1.3rem);
   line-height: 1.45;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -755,7 +755,7 @@ img {
 
 .deck-lead {
   margin: 32px auto 0;
-  font-size: clamp(1.02rem, 2vw, 1.15rem);
+  font-size: clamp(1.08rem, 2.2vw, 1.22rem);
   line-height: 1.75;
   max-width: 52ch;
   text-align: center;
@@ -768,7 +768,7 @@ img {
   border-radius: var(--radius-pill);
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   vertical-align: middle;
@@ -798,7 +798,7 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -984,7 +984,7 @@ img {
 .pillar-pill__title {
   margin: 0 0 8px;
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -992,7 +992,7 @@ img {
 
 .pillar-pill__text {
   margin: 0;
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   line-height: 1.55;
   font-style: italic;
   opacity: 0.95;
@@ -1107,7 +1107,7 @@ img {
 .future-deck__h {
   margin: 0 0 14px;
   font-family: var(--font-display);
-  font-size: clamp(1.02rem, 2vw, 1.22rem);
+  font-size: clamp(1.1rem, 2.2vw, 1.3rem);
   font-weight: 900;
   text-transform: uppercase;
   line-height: 1.25;
@@ -1116,7 +1116,7 @@ img {
 
 .future-deck__p {
   margin: 0 0 12px;
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 600;
   line-height: 1.55;
   color: var(--ink);
@@ -1124,7 +1124,7 @@ img {
 
 .future-deck__muted {
   margin: 0;
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   line-height: 1.6;
   color: var(--ink);
   opacity: 0.88;
@@ -1178,7 +1178,7 @@ img {
 .teal-deck__list li {
   position: relative;
   padding-left: 28px;
-  font-size: 1.02rem;
+  font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -1230,7 +1230,7 @@ img {
 .foundation-deck__checks li {
   position: relative;
   padding-left: 28px;
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -1268,7 +1268,7 @@ img {
 
 .foundation-deck__foot {
   margin: 28px 0 0;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   line-height: 1.65;
   opacity: 0.92;
 }
@@ -1369,13 +1369,13 @@ img {
 
 .offer-deck__sub {
   margin: 12px 0 0;
-  font-size: 1.08rem;
+  font-size: 1.14rem;
   color: var(--ink);
 }
 
 .offer-deck__hint {
   margin: 16px 0 24px;
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   opacity: 0.9;
 }
 
